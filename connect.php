@@ -12,7 +12,7 @@ if( $_SERVER['HTTP_HOST'] == 'localhost' || strncmp($_SERVER['HTTP_HOST'], "192.
 }
 else
 {
-	$ServerName = "52.200.81.157";
+	$ServerName = "119.59.116.172";
 	$User = "baanwebs_ebot";
 	$Password = "ykO0Ll875K";
 	$dbname = "baanwebs_ebot";
