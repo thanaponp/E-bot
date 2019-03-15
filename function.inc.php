@@ -1,7 +1,7 @@
 <?php
 @session_start();
 
-include("connect.php");
+//include("connect.php");
 
 //Configuration
 $answer_normal = "Hey... just say 'Hello'!";
