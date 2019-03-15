@@ -383,6 +383,7 @@ function CheckQinDB($text, &$backword, &$qid)
 
 function analyzeMain($question)
 {
+/*
 	return TEXT_DEFAULT;
 
 	$log_que = addslashes($question);
@@ -409,8 +410,9 @@ function analyzeMain($question)
 
 	//Log
 	KeepLog($log_que, TEXT_DEFAULT, $qid);
+*/
 
-/*
+
 	if( findStrHail($question, $backword) == true )
 		return $backword;
 	if( findStrDone($question, $backword) == true )
@@ -437,7 +439,6 @@ function analyzeMain($question)
 
 	if( findStrPartInNoCase($question, "วันอะไร") )
 		return partDateSpec($question);
-*/
 
 	return TEXT_DEFAULT;
 }
