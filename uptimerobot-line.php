@@ -26,7 +26,7 @@ function send_line_notify($params, $token)
 
 $token = 'aSpQER9FfNwwUTe6YznvRCJy9Xs3WlorMFrDP2nbSWH';
 $message = '';
-
+ 
 $monitorFriendlyName = $_GET['monitorFriendlyName'];
 $alertTypeFriendlyName = $_GET['alertTypeFriendlyName'];
 $alertDetails = $_GET['alertDetails'];
