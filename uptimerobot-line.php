@@ -46,7 +46,7 @@ else
   $stickerPkg = 3;
   $stickerId = 188;
 }
-  
+
 $params = array(
   "message"        => $message, //ข้อความที่ต้องการส่ง สูงสุด 1000 ตัวอักษร
   "stickerPkg"     => $stickerPkg, //stickerPackageId
